@@ -19,7 +19,7 @@ Assuming a Python virtual environment using a terminal in VSCode, the installati
 
 `pip install pandas`
 
-`pip install cerebus-0.4-cp312-cp312-win_amd64.whl`
+`pip install cerebus-0.4-cp310-cp312-win_amd64.whl`
 
 ## Usage
 As of version 1.0, to use the script, you'll need to copy the BlackRockUtils.py file in your code.
