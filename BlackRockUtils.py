@@ -23,7 +23,7 @@ SUFFIXES = []                            # Store the suffixes for each NSP (help
 
 for inst, address in enumerate(IP_ADDRESSES):   # list the IP addresses as 0: address1, 1: address2 etc.
     try:
-        cbpy.open(instance=inst, parameter={'central-addr':address})   # Use cpby to create a link per address, treating the nsp as a central machine
+        cbpy.open(instance=inst, parameter={'inst-addr':address})   # Use cpby to create a link per address, treating the nsp as a central machine
         ONLINE_NSPS[inst] = inst                                       # List the instance number
         SUFFIXES.append(f'_NSP-{inst+1}')                              # Create a new suffix for comments to have
     except:
