@@ -1,0 +1,7 @@
+setup.py
+python2nsp/__init__.py
+python2nsp.egg-info/PKG-INFO
+python2nsp.egg-info/SOURCES.txt
+python2nsp.egg-info/dependency_links.txt
+python2nsp.egg-info/requires.txt
+python2nsp.egg-info/top_level.txt

@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: python2nsp
+Version: 1.0
+Summary: A simple package that allows Windows computers to communicate to the NSPs. Tailor-made for the BCM-EMU
+Author: Georgios Kokalas
